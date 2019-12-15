@@ -1,0 +1,1 @@
+cmd_/root/Desktop/drivers/ex01_module.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-5.2.0-kali2-common/scripts/module-common.lds  --build-id  -o /root/Desktop/drivers/ex01_module.ko /root/Desktop/drivers/ex01_module.o /root/Desktop/drivers/ex01_module.mod.o ;  true
